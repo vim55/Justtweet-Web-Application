@@ -1,5 +1,6 @@
 # Justtweet-Web-Application
 Tweetter like interface for posting
+Used ReactJs, ExpressJs, MongoDb.
 
 ![Justtweet Interface](./images/justtweet.png)
 
