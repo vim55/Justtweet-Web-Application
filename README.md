@@ -1,6 +1,19 @@
 # Justtweet-Web-Application
 Tweetter like interface for posting
 
+This is a clean version of the code, so npm node models is included due to large file size
+So for both frontend and backend end to work, you are required to install the npm node modules
+
+for Frontend react:
+run 
+1. npm init react-app my-app-name
+2. replace the front-end files in this repo with your generated react application.
+
+for backend express:
+1. npm install -g express-generator
+2. express
+3. replace the back-end files in this repo with your generated express application.
+
 ## JustTweet
 
 To run the JustTweet program, make sure the justtweet_backend is running:
