@@ -1,6 +1,8 @@
 # Justtweet-Web-Application
 Tweetter like interface for posting
 
+![Justtweet Interface](./images/justtweet.png)
+
 This is a clean version of the code, so npm node models is included due to large file size
 So for both frontend and backend end to work, you are required to install the npm node modules
 
