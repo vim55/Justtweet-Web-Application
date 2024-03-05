@@ -3,20 +3,68 @@ Tweetter like interface for posting
 
 ![Justtweet Interface](./images/justtweet.png)
 
-This is a clean version of the code, so npm node models is included due to large file size
-So for both frontend and backend end to work, you are required to install the npm node modules
+# Project Setup
 
-for Frontend react:
-run 
-1. npm init react-app my-app-name
-2. replace the front-end files in this repo with your generated react application.
+This repository contains both frontend and backend components. To ensure the proper functioning of both, you need to install the necessary npm node modules. Follow the steps below for each component:
 
-for backend express:
-1. npm install -g express-generator
-2. express
-3. replace the back-end files in this repo with your generated express application.
+## Frontend (React)
 
-## JustTweet
+1. Initialize a new React app by running the following command:
+
+    ```bash
+    npx create-react-app my-app-name
+    ```
+
+    Replace `my-app-name` with the desired name for your React application.
+
+2. Replace the frontend files in this repository with the ones generated in your React application.
+
+3. Navigate to the frontend directory:
+
+    ```bash
+    cd my-app-name
+    ```
+
+4. Install the required npm modules:
+
+    ```bash
+    npm install
+    ```
+
+## Backend (Express)
+
+1. Install the Express Generator globally by running the following command:
+
+    ```bash
+    npm install -g express-generator
+    ```
+
+2. Generate a new Express application:
+
+    ```bash
+    express
+    ```
+
+    This will create a new Express app in the current directory.
+
+3. Replace the backend files in this repository with the ones generated in your Express application.
+
+4. Navigate to the backend directory:
+
+    ```bash
+    cd your-express-app-name
+    ```
+
+5. Install the required npm modules:
+
+    ```bash
+    npm install
+    ```
+
+Ensure that you follow these steps for both the frontend and backend components. Once the npm modules are installed, your project should be set up correctly. You can then proceed to run your applications using the respective commands for React and Express.
+
+
+## To Start JustTweet
 
 To run the JustTweet program, make sure the justtweet_backend is running:
 1. Run the following command: `nodemon .\app.js`
