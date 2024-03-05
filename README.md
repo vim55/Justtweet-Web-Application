@@ -1,17 +1,6 @@
 # Justtweet-Web-Application
 Tweetter like interface for posting
 
-# EasyTodo and JustTweet Programs
-
-## EasyTodo
-
-To run the EasyTodo program, follow these steps:
-
-1. Navigate to the EasyTodo directory in your terminal.
-2. Run the following command: `nodemon .\app.js`
-3. Ensure that the terminal displays "connected to MongoDB."
-   - If not, modify the following line in `app.js`: `mongoose.connect('<your MongoDB URL>')`
-
 ## JustTweet
 
 To run the JustTweet program, make sure the justtweet_backend is running:
