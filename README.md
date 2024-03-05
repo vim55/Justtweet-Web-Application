@@ -71,7 +71,7 @@ To run the JustTweet program, make sure the justtweet_backend is running:
 2. Ensure that the terminal displays "connected to MongoDB."
    - If not, modify the following line in `app.js`: `mongoose.connect('<your MongoDB URL>')`
 
-Then, run the frontend following these steps:
+Then, run the frontend using the following steps:
 1. Navigate to the JustTweet frontend directory in your terminal.
 2. Run the following command: `npm start`
 
